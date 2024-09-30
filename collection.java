@@ -12,7 +12,12 @@ public class collection {
         while (itr.hasNext()) {
             System.out.println(itr.next()); 
         }
-       
-    
+        al.add("Sita");
+        System.out.println("Add another name"+al);
+        al.set(al.indexOf("Ajay"), "Rahul");
+    System.out.println("After replacing Ajay with Rahul: " + al);
+    al.remove(1);
+    System.out.println("Remove the name of "+1);
     }
+
 }

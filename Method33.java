@@ -12,4 +12,4 @@ public class Method33 {
         return min;
     }
 }
-// minimum  in aaray
+// minimum  in aaray;
